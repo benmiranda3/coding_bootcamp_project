@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+ <style type="text/css">
+   body{
+      background-color:rgb(50,50,50);
+      color:white
+   }
+   a{
+      color:rgb(210,210,255)
+   }
+   img{
+      margin: 15px 15px 15px 15px
+   }
+   hr{
+      border-top: 1px solid gray;
+   }
+   .infotd{
+     vertical-align:top
+   }
+ </style>
+</head>
+
+<body style="background-color:rgb(50,50,50); color:white">
+<table width= 1000px>
+  <tr>
+    <td class="infotd">
+      <h3>Ben Miranda</h3>
+      <p> Before bootcamp, most of my knowledge came from my Computer Science A-Levels. 
+	I have basic knowledge of coding from when I taught myself some Python to aid in
+	completing my A-Level Coursework.</p> 
+    </td>
+    <td>
+	<img src="game.png" width=300px></img>
+    </td>
+  </tr>
+  <tr>
+    <td colspan=2>
+	<hr>
+    </td>
+  </tr>
+
+ <tr>
+  <td class="infotd">
+    <h3>Bootcamp 2021: Brick Breaker</h3>
+    <p>
+	For my first programming project to conclude Coding Bootcamp 2021, I have made a brick breaker game. 
+	I used three classes to create interactive objects in the game.
+
+	The paddle class contains code that draws and controls the paddle with 
+	the keys "A" to move left and "D" to move right.
+
+	The ball class holds the properties for speed and direction that
+	the moves the ball. This also contains the conditions for the 
+	ball to bounce off the sides of the window.
+
+	The brick class contains the variables I used to draw the bricks used in the game.
+
+	In the main code I used the classes to draw my objects onto the screen while using
+	methods and if statements to create collision detection between the screen sides, 
+	moving ball and paddle.
+
+	I also used a nested for loop and an array to create a few rows of bricks however, my collision
+	detection was very buggy so I decided to remove it for the showcase so, the other functions of the program work properly but my attempt is included in the code attached
+	on GitHub. There is also a game over feature so that if the ball touches the bottom of the screen
+	(getting past the paddle) then the program will be paused and a "Game Over" text will
+	be displayed. 
+	Before bootcamp, most of my knowledge came from my Computer Science A-Levels. 
+	I have basic knowledge of coding from when I taught myself some Python to aid in
+	completing my A-Level Coursework.
+
+    </p>
+
+    <p>
+      Check out the code on Github: <a href="https://github.com/benmiranda3/coding_bootcamp_project.git">https://github.com/benmiranda3/coding_bootcamp_project.git/</a>
+    </p>
+  <td>
+	<iframe width="1280" height="720" src="https://web.microsoftstream.com/embed/video/1d6fe6b3-7632-4e49-9197-ec544b9b8e1e?autoplay=false&showinfo=true" allowfullscreen style="border:none;"></iframe>
+  <td>
+  </td>
+<tr>
+ <td colspan = 2 align=center>
+	<img src="ball.png" width="285px">
+	<img src="brick.png" width="265px">
+	<img src="paddle.png" width="255px">
+ </td>
+</tr>
+ </tr>
+</table>
+</body>
+</html>
